@@ -4,17 +4,17 @@
  git config --global user.name "mitul013"
 
 
-#for staging files
+# for staging files
 git add -add
 
 
-#for getting last commited file 
+# for getting last commited file 
 git checkout contact.html
 
-#for all logs
+# for all logs
 git log
 
-#last some number of commit log
+# last some number of commit log
 git log -p -3 (last 3 commit)
 
 # for seeing what are changes in file 
@@ -34,16 +34,16 @@ touch .gitignore
 # add remote githubb url (origin is just a name for that url)
 git remote add origin url
 
-#show how many remote added
+# show how many remote added
 git remote -v
 
-#generate ssh key to your github account
+# generate ssh key to your github account
 '''https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent'''
 
-#copy ssh key to clipboard
+# copy ssh key to clipboard
 cat ~/.ssh/id_rsa.pub
 
-#add that ssh key to github
+# add that ssh key to github
 
-#codewithharry github video link
+# codewithharry github video link
 '''https://www.youtube.com/watch?v=gwWKnnCMQ5c'''
